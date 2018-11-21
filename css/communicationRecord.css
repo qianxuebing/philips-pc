@@ -1,0 +1,151 @@
+.main {
+    width: 900px;
+    margin: 0 auto;
+    padding-bottom: 128px;
+}
+
+.icon-sousuo {
+    margin-right: 10px;
+}
+
+.product-title {
+    font-size: 26px !important;
+    font-weight: 700 !important;
+    margin: 30px 0 20px 0 !important;
+}
+
+.telphone {
+    width: 300px !important;
+    height: 45px !important;
+    line-height: 45px;
+    background-color: #EBEBEB !important;
+    border: 0 !important;
+    outline: none;
+    margin-bottom: 20px;
+}
+
+.code-input {
+    display: inline-block !important;
+    width: 160px !important;
+    height: 45px !important;
+    line-height: 45px !important;
+    background-color: #EBEBEB !important;
+    border: 0 !important;
+    outline: none;
+    margin: 0 35px 20px 0;
+}
+
+.verification-code button {
+    width: 100px !important;
+    height: 45px !important;
+    background-color: #EBEBEB;
+    border: 0 !important;
+    outline: none;
+    color: #176490 !important;
+    margin-top: -5px;
+}
+
+.information span {
+    float: left;
+    margin-top: 4px;
+    color: #595757;
+    font-weight: 400;
+}
+
+input[type=checkbox] {
+    width: 20px !important;
+    height: 20px !important;
+    overflow: hidden;
+    margin-right: 10px !important;
+    background: #fff;
+    appearance: none;
+    -webkit-appearance: none;
+    border: 1px solid #808080;
+    border-radius: 50%;
+    float: left;
+    outline: none !important;
+}
+
+input[type=checkbox]:checked {
+    appearance: none;
+    -webkit-appearance: none;
+    background-image: url(../images/gou_03.png);
+    background-position: center 30%;
+    background-repeat: no-repeat;
+    background-size: 96%;
+    background-color: #00669B;
+    border-radius: 50%;
+    border: 0;
+    outline: none;
+    overflow: hidden;
+}
+
+.btn-search {
+    width: 123px;
+    margin-top: 40px;
+}
+
+.modal-mask {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+    display: none;
+}
+
+.modal-wrap {
+    width: 435px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 4px;
+}
+
+.modal-title {
+    position: relative;
+    border-bottom: 1px solid #7F7F7F;
+}
+
+.modal-title h2 {
+    color: #595757;
+    margin: 0px !important;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.modal-title span {
+    position: absolute;
+    top: -16px;
+    right: -7px;
+    font-size: 30px;
+    color: #1F6996;
+    cursor: pointer;
+}
+
+.content {
+    margin-top: 15px;
+}
+
+.content ul li {
+    height: 35px;
+    line-height: 35px;
+}
+
+.content ul li span {
+    color: #878787;
+}
+
+.content ul li:last-child span:first-child {
+    color: #00669B;
+}
+
+.content ul li:last-child span:nth-child(2) {
+    color: #D05514;
+}

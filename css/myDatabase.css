@@ -1,0 +1,171 @@
+		.main {
+		    width: 900px;
+		    margin: 0 auto;
+		    padding-bottom: 128px;
+		}
+		
+		.product-title {
+		    margin: 44px 0 20px 0 !important;
+		    font-size: 33px !important;
+		    font-weight: 700;
+		}
+		
+		.product-item>div {
+		    float: left;
+		}
+		
+		.product-item {
+		    width: 450px;
+		    height: 210px;
+		    border: 1px solid #F4F4F4;
+		    border-radius: 4px;
+		    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 10px;
+		    position: relative;
+		    padding: 0 10px 10px 0;
+		    box-sizing: border-box;
+		    float: left;
+		    /* margin: 0 20px 20px 0; 
+		    cursor: pointer;*/
+		}
+		
+		.product-item>img {
+		    width: 40px;
+		    height: 40px;
+		    position: absolute;
+		    top: 0;
+		    right: 0;
+		}
+		
+		.product-img {
+		    width: 140px;
+		    height: 200px;
+		    line-height: 210px;
+		    text-align: center;
+		    margin-right: 10px;
+		}
+		
+		.product-img img {
+		    max-width: 100%;
+		    max-height: 100%;
+		}
+		
+		.product-descript {
+		    width: calc(100% - 150px);
+		    height: 100%;
+		    position: relative;
+		}
+		
+		.product-descript>p:first-child {
+		    margin: 20px 0 15px !important;
+		    font-size: 21px;
+		    color: #222222;
+		    font-weight: 700;
+		    word-break: break-all;
+		    overflow: hidden;
+		    text-overflow: ellipsis;
+		    display: -webkit-box;
+		    -webkit-line-clamp: 2;
+		    line-clamp: 2;
+		    -webkit-box-orient: vertical;
+		}
+		
+		.product-descript>p:nth-child(2) {
+		    font-size: 14px;
+		    color: #595757;
+		}
+		
+		.product-descript button {
+		    position: absolute;
+		    bottom: 10px;
+		    left: 0;
+		}
+		
+		.slick {
+		    width: 815px !important;
+		    margin: 0 auto;
+		}
+		
+		.slick-slide img {
+		    display: inline-block !important;
+		}
+		
+		.slick-initialized .slick-slide {
+		    margin: 0 25px;
+		    padding: 10px 0;
+		}
+		
+		.icon-zuojiantou {
+		    position: absolute !important;
+		    top: 30%;
+		    left: -50px;
+		    font-size: 50px;
+		    color: #256D97;
+		}
+		
+		.icon-youjiantou {
+		    position: absolute !important;
+		    top: 30%;
+		    right: -50px;
+		    font-size: 50px;
+		    color: #256D97;
+		}
+		
+		.slick-dots li.slick-active button:before {
+		    color: #176492 !important;
+		}
+		
+		.slick-dots li button {
+		    color: #D0D0D0 !important;
+		}
+		
+		.about-article {
+		    margin-top: 105px;
+		}
+		
+		.about-article h4,
+		.read-over h4 {
+		    font-size: 14px;
+		    color: #176492;
+		    font-weight: 700;
+		    padding-bottom: 15px;
+		    border-bottom: 1px solid #176492;
+		}
+		
+		.about-article ul,
+		.read-over ul {
+		    margin: 10px 0 0 20px;
+		}
+		
+		.about-article ul li,
+		.read-over ul li {
+		    list-style: disc;
+		    color: #176492;
+		    line-height: 25px;
+		}
+		
+		.about-article ul li a {
+		    color: #176492 !important;
+		    text-decoration: none;
+		}
+		
+		.read-over {
+		    margin-top: 65px;
+		}
+		
+		.read-over h4 {
+		    color: #595757;
+		    border-bottom: 1px solid #595757;
+		}
+		
+		.read-over ul li {
+		    color: #595757 !important;
+		}
+		
+		.read-over ul li a {
+		    color: #595757 !important;
+		}
+		
+		.read-over ul li time {
+		    color: #595757;
+		    float: right;
+		}

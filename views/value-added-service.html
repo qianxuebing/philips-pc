@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../iconfont/iconfont.css">
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" type="text/css" href="../css/value-added-service.css" />
+    <link rel="stylesheet" href="../components/Bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../components/Bootstrap/css/bootstrap-theme.min.css">
+    <title>增值服务</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="top-wrap clearfix">
+            <div class="top clearfix">
+                <div class="logo">
+                    <img src="../images/PhilipsLogo.png" alt="">
+                </div>
+                <div class="way">
+                    <!-- <span class="btn-login">登录</span>
+                         <span class="btn-register">注册</span> -->
+                    <span class="user">用户名</span>
+                </div>
+            </div>
+        </div>
+        <div class="nav-list">
+            <ul class="nav clearfix">
+                <li class="active">
+                    <a href="personalData.html">
+                        <span class="iconfont icon-user"></span>
+                        <span>个人资料</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="integralDiscount.html">
+                        <span class="iconfont icon-youhui2"></span>
+                        <span>积分与优惠</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="myProduct.html">
+                        <span class=" iconfont icon-dingdan "></span>
+                        <span>我的产品</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="myDatabase.html ">
+                        <span class="iconfont icon-ziliaoku "></span>
+                        <span>我的资料库</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="myOrder.html ">
+                        <span class="iconfont icon-wodedingdan1 "></span>
+                        <span>我的订单</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="communicationRecord.html ">
+                        <span class="iconfont icon-huihua "></span>
+                        <span>沟通记录</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="value-added-service.html ">
+                        <span class="iconfont icon-huangguan1 "></span>
+                        <span>增值服务</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="# ">
+                        <span class="iconfont icon-gouwuche "></span>
+                        <span>前往商城</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="banner">
+            <img src="../images/bg_02.jpg" alt="">
+            <div class="bg-hide"></div>
+            <div class="user-wrap clearfix">
+                <div class="user-img">
+                    <img src="../images/user_05.png" alt="">
+                </div>
+                <div class="user-name">
+                    <p>欢迎</p>
+                    <p><span>用户名</span><span class="revise-name">修改</span></p>
+                </div>
+                <div class="user-name current-integral">
+                    <p>当前积分</p>
+                    <p><span>1000</span><span>查看</span></p>
+                </div>
+                <div class="user-name coupon">
+                    <p>您有2张新的优惠券！</p>
+                    <p>查看<span class="iconfont icon-arrow-right-copy-copy-copy"></span></p>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="main">
+        <h2 class="product-title">增值服务</h2>
+        <div class="list-item clearfix" id="incrementService">
+            <div class="service-item">
+                <p class="clearfix"><span>安心到家</span><span class="day-time">有效期：<i>5</i>天</span></p>
+                <div class="use-coupon clearfix">
+                    <button class="btn btn-primary btn-coupon">使用本券</button>
+                    <span>获取时间：<i>2018-01-01</i></span>
+                </div>
+            </div>
+            <div class="service-item">
+                <p class="clearfix"><span>电动牙刷延保</span><span class="day-time">有效期：<i>5</i>天</span></p>
+                <div class="use-coupon clearfix">
+                    <button class="btn btn-primary  btn-coupon">使用本券</button>
+                    <span>获取时间：<i>2018-01-01</i></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class=" footer ">
+        <div class="footer-img ">
+            <img src="../images/philips-footer-logo.png " alt=" ">
+        </div>
+    </footer>
+    <!-- modal -->
+    <div class="modal-mask">
+        <div class="modal-wrap">
+            <div class="modal-title">
+                <h2>安心到家</h2>
+                <span class="iconfont icon-quxiao"></span>
+            </div>
+            <div class="content">
+                <div class="modal-img">
+                    <img src="../images/delivery.png" alt="">
+                </div>
+                <p>飞利浦为您提供贴心的安心到家服。让您足不出户，货品到家。</p>
+                <ul>
+                    <li class="clearfix">
+                        <span class="pull-left">有效期：5天</span>
+                        <span class="pull-right">获取时间：2018-01-01</span>
+                    </li>
+                </ul>
+                <button class="btn btn-primary">使用本券</button>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="../js/jquery-3.2.1.min.js "></script>
+<script src="../components/Bootstrap/js/bootstrap.min.js "></script>
+<script src="../js/public.js"></script>
+<script>
+    $(function() {
+        $(".btn-coupon").on("click", function() {
+            $(".modal-mask").show();
+        });
+        $(".icon-quxiao").on("click", function() {
+            $(".modal-mask").hide();
+        });
+        $(".modal-mask").on("click", function() {
+            $(this).hide();
+        });
+    })
+</script>
+
+</html>

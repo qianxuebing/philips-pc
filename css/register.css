@@ -1,0 +1,161 @@
+  .main {
+      width: 900px;
+      margin: 0 auto;
+      padding-bottom: 100px;
+  }
+  
+  .product-title {
+      margin: 44px 0 20px 0 !important;
+      font-size: 22px !important;
+      font-weight: 700;
+  }
+  
+  .create-accounts {
+      color: #000000;
+      font-size: 14px;
+      margin-bottom: 35px !important;
+      line-height: 21px;
+  }
+  
+  .create-accounts a {
+      color: #176490 !important;
+  }
+  
+  .input-group input {
+      width: 315px !important;
+      height: 50px;
+      line-height: 50px;
+      margin-right: 170px;
+      font-size: 16px;
+  }
+  
+  .input-group p {
+      color: #858484;
+      line-height: 20px;
+  }
+  
+  .input-group p>a {
+      color: #176490 !important;
+  }
+  
+  .bg-circle {
+      margin: 5px 0 !important;
+      color: #1E9B89;
+  }
+  
+  .bg-circle i {
+      display: inline-block;
+      width: 10px;
+      height: 10px;
+      margin-right: 5px;
+      background-color: #1E9B89;
+      border-radius: 50%;
+  }
+  
+  .code-wrap {
+      width: 315px !important;
+      height: 50px !important;
+      padding-right: 0 !important;
+  }
+  
+  .code-wrap input {
+      width: 185px;
+      margin-top: -5px;
+      height: 40px;
+      border: 0;
+      outline: none;
+      font-size: 16px;
+  }
+  
+  .code-wrap button {
+      width: 115px;
+      margin-top: -6px;
+      height: 48px;
+      border: 0;
+      background-color: #B7DAE3;
+      color: #176490;
+      font-size: 16px;
+  }
+  
+  .tip {
+      display: none;
+      margin-top: 5px !important;
+      color: #176490;
+      font-weight: 500;
+  }
+  
+  .btn-login {
+      width: 98px;
+      height: 34px;
+      margin-top: 35px;
+      font-size: 16px;
+  }
+  
+  input[type=checkbox] {
+      width: 15px !important;
+      height: 15px !important;
+      overflow: hidden;
+      margin-right: 5px !important;
+      background: #ddd;
+      appearance: none;
+      -webkit-appearance: none;
+      border: 1px solid #808080;
+      border-radius: 3px;
+      float: left;
+      outline: none;
+  }
+  
+  input[type=checkbox]:checked {
+      appearance: none;
+      -webkit-appearance: none;
+      background-image: url(../images/gou_03.png);
+      background-position: center 30%;
+      background-repeat: no-repeat;
+      background-size: 96%;
+      background-color: #00669B;
+      border-radius: 4px;
+      border: 0;
+      outline: none;
+      overflow: hidden;
+  }
+  
+  .success-wrap {
+      margin: 80px 0px 50px !important;
+      text-align: center;
+      position: relative;
+  }
+  
+  .success-wrap>span {
+      display: block;
+      color: #5D5D5D;
+  }
+  
+  .register-success {
+      color: #1E9C8A !important;
+  }
+  
+  .success-wrap>span:first-child {
+      font-size: 80px;
+  }
+  
+  .success-wrap>span:last-child {
+      color: #176491;
+      font-size: 18px;
+      position: absolute;
+      left: 50%;
+      bottom: -5px;
+      transform: translateX(-50%);
+      -webkit-transform: translateX(-50%);
+  }
+  
+  .set-tip {
+      text-align: center;
+      color: #7BA3D8;
+      font-size: 16px;
+      margin-top: 10px;
+  }
+  
+  .set-tip a {
+      color: #176491 !important;
+      font-weight: 700;
+  }

@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../iconfont/iconfont.css">
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/personalData.css">
+    <link rel="stylesheet" href="../components/Bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../components/Bootstrap/css/bootstrap-theme.min.css">
+    <title>积分与优惠</title>
+    <style>
+        .list-wrap>div {
+            display: none;
+        }
+        
+        .list-wrap>div:first-child {
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="top-wrap clearfix">
+            <div class="top clearfix">
+                <div class="logo">
+                    <img src="../images/PhilipsLogo.png" alt="">
+                </div>
+                <div class="way">
+                    <!-- <span class="btn-login">登录</span>
+                        <span class="btn-register">注册</span> -->
+                    <span class="user">用户名</span>
+                </div>
+            </div>
+        </div>
+        <div class="nav-list">
+            <ul class="nav clearfix">
+                <li class="active">
+                    <a href="personalData.html">
+                        <span class="iconfont icon-user"></span>
+                        <span>个人资料</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="integralDiscount.html">
+                        <span class="iconfont icon-youhui2"></span>
+                        <span>积分与优惠</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="myProduct.html">
+                        <span class=" iconfont icon-dingdan "></span>
+                        <span>我的产品</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="myDatabase.html ">
+                        <span class="iconfont icon-ziliaoku "></span>
+                        <span>我的资料库</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="myOrder.html ">
+                        <span class="iconfont icon-wodedingdan1 "></span>
+                        <span>我的订单</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="communicationRecord.html ">
+                        <span class="iconfont icon-huihua "></span>
+                        <span>沟通记录</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="value-added-service.html ">
+                        <span class="iconfont icon-huangguan1 "></span>
+                        <span>增值服务</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="# ">
+                        <span class="iconfont icon-gouwuche "></span>
+                        <span>前往商城</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="banner">
+            <img src="../images/bg_02.jpg" alt="">
+            <div class="bg-hide"></div>
+            <div class="user-wrap clearfix">
+                <div class="user-img">
+                    <img src="../images/user_05.png" alt="">
+                </div>
+                <div class="user-name">
+                    <p>欢迎</p>
+                    <p><span>用户名</span><span class="revise-name">修改</span></p>
+                </div>
+                <div class="user-name current-integral">
+                    <p>当前积分</p>
+                    <p><span>1000</span><span>查看</span></p>
+                </div>
+                <div class="user-name coupon">
+                    <p>您有2张新的优惠券！</p>
+                    <p>查看<span class="iconfont icon-arrow-right-copy-copy-copy"></span></p>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="main">
+        <h2 class="product-title">积分与优惠</h2>
+        <ul class="nav nav-pills navigation">
+            <li data-id="#myCoupon" class="border-bottom">
+                <a href="javascript:;">我的优惠券</a>
+            </li>
+            <li data-id="#myIntegral">
+                <a href="javascript:;">我的积分</a>
+            </li>
+            <li data-id="#incrementService">
+                <a href="javascript:;">增值服务</a>
+            </li>
+        </ul>
+        <div class="list-wrap">
+            <div class="list-item" id="myCoupon">
+                <div class="coupon-list clearfix">
+                    <div class="coupon-item">
+                        <div class="coupon-money pull-left">
+                            <span>￥<i>55</i></span>
+                            <button class="btn btn-primary user-coupon">使用本券</button>
+                        </div>
+                        <div class="coupon-describe pull-left">
+                            <p class="clearfix"><span class="pull-left"><span class="pull-left">券码：</span><i>55W28</i></span><span class="pull-right">有效期：<i>5</i>天</span></p>
+                            <p>您可以复制券码，方便结算使用</p>
+                            <p>适用于：<span>HX3216/01</span></p>
+                        </div>
+                    </div>
+                    <div class="coupon-item">
+                        <div class="coupon-money pull-left">
+                            <span>￥<i>55</i></span>
+                            <button class="btn btn-primary user-coupon">使用本券</button>
+                        </div>
+                        <div class="coupon-describe pull-left">
+                            <p class="clearfix"><span class="pull-left"><span class="pull-left">券码：</span><i>55W28</i></span><span class="pull-right">有效期：<i>5</i>天</span></p>
+                            <p>您可以复制券码，方便结算使用</p>
+                            <p>适用于：<span>HX3216/01</span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="time-over">
+                    <h4>已过期</h4>
+                    <div class="coupon-list clearfix">
+                        <div class="coupon-item">
+                            <div class="coupon-money pull-left">
+                                <span>￥<i>55</i></span>
+                                <button class="btn btn-primary check-coupon">查看本券</button>
+                            </div>
+                            <div class="coupon-describe pull-right">
+                                <p class="clearfix"><span class="pull-left"><span class="pull-left">券码：</span><i>55W28</i></span><span class="pull-right">有效期：<i>5</i>天</span></p>
+                                <p>您可以复制券码，方便结算使用</p>
+                                <p>适用于：<span>HX3216/01</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="list-item clearfix" id="myIntegral">
+                <div class="col-md-6" style="padding-left:0;">
+                    <ul class="integral-list">
+                        <li class="clearfix">
+                            <span>+400</span>
+                            <span>首页信息完善</span>
+                            <time>2018-01-01</time>
+                        </li>
+                        <li class="clearfix">
+                            <span>+400</span>
+                            <span>新会员注册</span>
+                            <time>2018-01-01</time>
+                        </li>
+                    </ul>
+                    <div class="btn-group">
+                        <button class="btn btn-primary">赚取积分</button>
+                        <button class="btn btn-primary">使用积分</button>
+                    </div>
+                </div>
+            </div>
+            <div class="list-item clearfix" id="incrementService">
+                <div class="service-item">
+                    <p class="clearfix"><span>安心到家</span><span class="day-time">有效期：<i>5</i>天</span></p>
+                    <div class="use-coupon clearfix">
+                        <button class="btn btn-primary user-coupon">使用本券</button>
+                        <span>获取时间：<i>2018-01-01</i></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="footer-img">
+            <img src="../images/philips-footer-logo.png" alt="">
+        </div>
+    </footer>
+</body>
+<script src="../js/jquery-3.2.1.min.js"></script>
+<script src="../components/Bootstrap/js/bootstrap.min.js"></script>
+<script src="../js/public.js"></script>
+<script>
+    $(function() {
+        $(".navigation li").on("click", function() {
+            var $id = $(this).data("id");
+            $(this).addClass("border-bottom").siblings().removeClass("border-bottom");
+            $($id).show().siblings().hide();
+        })
+    })
+</script>
+
+</html>

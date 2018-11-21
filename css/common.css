@@ -1,0 +1,248 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: tahoma, "Microsoft YaHei", "Heiti SC", "SimHei" !important;
+}
+
+i {
+    font-style: normal;
+}
+
+a {
+    color: #595757;
+    text-decoration: none;
+}
+
+a:hover,
+a:visited,
+a:link {
+    background-color: transparent !important;
+    color: #7F7F7F !important;
+}
+
+p {
+    margin-bottom: 0 !important;
+}
+
+ul li {
+    list-style: none;
+}
+
+.clearfix {
+    display: blcok;
+    content: "";
+    clear: both;
+    overflow: hidden;
+}
+
+html,
+body {
+    width: 100%;
+    font-size: 16px;
+}
+
+
+/* header */
+
+.top-wrap {
+    width: 100%;
+    margin: 0 !important;
+    background-color: #14749C;
+}
+
+.top {
+    width: 900px;
+    margin: 0 auto;
+    height: 45px;
+    line-height: 45px;
+    position: relative;
+}
+
+.logo {
+    height: 45px;
+    float: left;
+}
+
+.logo img {
+    height: 100%;
+}
+
+.way {
+    float: right;
+    color: #fff;
+    font-size: 16px;
+}
+
+.way>span {
+    margin-right: 25px;
+    cursor: pointer;
+}
+
+.nav-list {
+    width: 100%;
+    height: 115px;
+    background-color: #176490;
+}
+
+.nav-list .nav {
+    width: 900px;
+    height: 100%;
+    color: #fff;
+    margin: 0 auto;
+}
+
+.nav-list .nav li {
+    width: 12.5%;
+    height: 100%;
+    float: left;
+    text-align: center;
+	background-color: #176490;
+}
+
+.nav-list .nav li span {
+    display: block;
+}
+
+.nav-list .nav li span:first-child {
+    margin-top: 15px;
+    font-size: 25px;
+}
+
+.nav-list .nav li span:last-child {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.nav-list .nav li a {
+    color: #fff !important;
+}
+
+.user-wrap div {
+    float: left;
+}
+
+.banner {
+    width: 100%;
+    position: relative;
+}
+
+.banner>img {
+    width: 100%;
+}
+
+.banner .bg-hide,
+.banner .user-wrap {
+    position: absolute;
+    bottom: 0;
+}
+
+.bg-hide {
+    width: 100%;
+    height: 75px;
+    background-color: #7392A3;
+    opacity: 0.5;
+}
+
+.user-wrap {
+    width: 900px;
+    height: 75px;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+}
+
+.user-wrap .user-img {
+    height: 100%;
+}
+
+.user-wrap .user-img>img {
+    max-height: 100%;
+}
+
+.user-name {
+    height: 75px;
+    padding: 0 32px;
+    background-color: #fff;
+}
+
+.current-integral {
+    padding-right: 62px;
+}
+
+.user-name>p {
+    color: #176490;
+}
+
+.user-name>p:first-child {
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.user-name>p:last-child {
+    font-size: 30px;
+    font-weight: normal;
+}
+
+.user-name>p:last-child>span:last-child {
+    margin-left: 10px;
+    font-size: 14px;
+    cursor: pointer;
+    color: #858484;
+}
+
+.current-integral>p,
+.coupon>p {
+    font-weight: normal !important;
+}
+
+.coupon {
+    background-color: #176490 !important;
+    cursor: pointer;
+    padding-left: 25px !important;
+}
+
+.coupon>p {
+    color: #fff !important;
+}
+
+.coupon>p:last-child {
+    margin-top: 10px;
+    font-size: 14px !important;
+}
+
+.coupon>p:last-child>span {
+    margin-left: 5px !important;
+    color: #fff !important;
+}
+
+.main {
+    width: 100%;
+}
+
+.main>img {
+    width: 100%;
+}
+
+.footer {
+    width: 100%;
+    height: 387px;
+    background-color: #002D52;
+}
+
+.footer .footer-img {
+    width: 118px;
+    margin: 0 auto;
+}
+
+.footer .footer-img img {
+    margin-top: 116px;
+    width: 100%;
+}
+
+.icon-huangguan1 {
+    font-size: 30px !important;
+    margin-top: 9px !important;
+}
